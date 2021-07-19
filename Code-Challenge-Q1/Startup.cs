@@ -55,7 +55,7 @@ namespace Code_Challenge_Q1
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller}/{action=Index}/{id?}");
+                    pattern: "{controller}/{action=Index}/{id?}"); 
             });
 
             app.UseSpa(spa =>
